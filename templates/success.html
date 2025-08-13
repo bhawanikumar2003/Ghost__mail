@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mail Sent</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .success {
+            margin-top: 100px;
+            padding: 20px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        a {
+            color: #ff4d4d;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="success">
+        <h2>✅ Ghost Mail Sent Successfully!</h2>
+        <p>Your anonymous message has been delivered to <strong>{{ receiver }}</strong>.</p>
+        <a href="/">Send Another</a>
+    </div>
+</body>
+</html>
